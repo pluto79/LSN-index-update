@@ -1,0 +1,199 @@
+.header {
+    height: 100vh;
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0)), to(rgba(40, 180, 133, 0))), url(../img/LSN-WP-LARGE.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+@media only screen and (max-width: 46.50em) {
+    .header {
+        background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.355)), to(rgba(0, 0, 0, 0.353))), url(../img/LSN-WP-SMALL.png);
+    }
+}
+
+.brand-rounded--nav{
+    height: 3rem;
+}
+
+.link__text{
+    font-family: Montserrat;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.btn__mod{
+    font-size:  0.7rem;
+}
+
+.section-about{
+    height: 100vh;
+    background-color: #f7f7f7;
+    padding: 2rem 2rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+    .section-about{
+        padding: 2rem 1.5rem;
+    }
+}
+
+.header__box{
+    position: absolute;
+    top: 87%;
+    left: 48%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.heading-primary {
+    color: #fea422;
+    text-transform: uppercase;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    margin-bottom: 2rem;
+}
+.heading-primary--main {
+    display: block;
+    font-size: 5rem;
+    font-family: Montserrat;
+    font-weight: 800;
+    -webkit-animation-name: moveInLeft;
+    animation-name: moveInLeft;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+}
+@media only screen and (max-width: 62.0em) {
+    .heading-primary--main {
+        margin-bottom: 2rem;
+        font-size: 2.5rem;
+    }
+}
+
+.heading-secondary--main {
+    font-size: 2rem;
+    font-family: Montserrat;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: #fea422;
+    letter-spacing: 0.2rem;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+@media only screen and (max-width: 56.25em) {
+    .heading-secondary--main {
+        font-size: 1.4rem;
+    }
+}
+@media only screen and (max-width: 37.5em) {
+    .heading-secondary--main {
+        font-size: 1.4rem;
+    }
+}
+
+.heading-secondary--sub {
+    font-size: 0.9rem;
+    font-family: Montserrat;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: #fea422;
+    letter-spacing: 0.2rem;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+@media only screen and (max-width: 56.25em) {
+    .heading-secondary--main {
+        font-size: 1.4rem;
+    }
+}
+@media only screen and (max-width: 37.5em) {
+    .heading-secondary--main {
+        font-size: 1.4rem;
+    }
+}
+
+.about__board{
+    height: 71vh;
+    background-color: rgba(0, 0, 0, 0.844);
+    padding: 1.5rem;
+}
+@media only screen and (max-width: 62.0em) {
+    .about__board{
+        display: none;
+    }
+}
+
+.about__board--wrap{
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.about__board--wrap---1{
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0)), to(rgba(40, 180, 133, 0))), url(../img/LSN-1.png); 
+  margin-bottom: 1rem; 
+}
+
+.about__board--wrap---2{
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0)), to(rgba(40, 180, 133, 0))), url(../img/LSN-2.png); 
+    margin-bottom: 1rem; 
+}
+
+.about__board--wrap---3{
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0)), to(rgba(40, 180, 133, 0))), url(../img/LSN-3.jpg);  
+    margin: 1rem, 0rem;
+}
+
+
+.about__text{
+    padding: 0.8rem;
+}
+
+@media only screen and (max-width: 62.0em) {
+    .about__text{
+    text-align: center;
+}
+}
+
+.icon-small{
+    height: 3rem;
+}
+
+.paragraph {
+    font-size: 0.75rem;
+    font-family: Montserrat;
+    font-weight: 400;
+    text-align: left;
+}
+
+.section-services{
+    height: 95vh;
+    background-color: #f7f7f7;
+    padding: 4rem 2rem;
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.600)), to(rgba(0, 0, 0, 0.600))), url(../img/LSN-LARGE--2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.mobile{
+    display: none;
+}
+
+.u-margin--bottom---big{
+    margin-bottom: 3.5rem;
+}
+/* 
+font
+font-family: Montserrat; 
+*/
